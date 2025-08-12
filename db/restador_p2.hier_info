@@ -1,0 +1,69 @@
+|sub_4bit
+A[0] => full_sub_1bit:u0.A
+A[1] => full_sub_1bit:u1.A
+A[2] => full_sub_1bit:u2.A
+A[3] => full_sub_1bit:u3.A
+B[0] => full_sub_1bit:u0.B
+B[1] => full_sub_1bit:u1.B
+B[2] => full_sub_1bit:u2.B
+B[3] => full_sub_1bit:u3.B
+Bin => full_sub_1bit:u0.Bin
+D[0] <= full_sub_1bit:u0.D
+D[1] <= full_sub_1bit:u1.D
+D[2] <= full_sub_1bit:u2.D
+D[3] <= full_sub_1bit:u3.D
+Bout <= full_sub_1bit:u3.Bout
+
+
+|sub_4bit|full_sub_1bit:u0
+A => D.IN0
+A => Bout.IN1
+B => D.IN1
+B => Bout.IN0
+B => Bout.IN0
+Bin => D.IN1
+Bin => Bout.IN1
+Bin => Bout.IN1
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sub_4bit|full_sub_1bit:u1
+A => D.IN0
+A => Bout.IN1
+B => D.IN1
+B => Bout.IN0
+B => Bout.IN0
+Bin => D.IN1
+Bin => Bout.IN1
+Bin => Bout.IN1
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sub_4bit|full_sub_1bit:u2
+A => D.IN0
+A => Bout.IN1
+B => D.IN1
+B => Bout.IN0
+B => Bout.IN0
+Bin => D.IN1
+Bin => Bout.IN1
+Bin => Bout.IN1
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sub_4bit|full_sub_1bit:u3
+A => D.IN0
+A => Bout.IN1
+B => D.IN1
+B => Bout.IN0
+B => Bout.IN0
+Bin => D.IN1
+Bin => Bout.IN1
+Bin => Bout.IN1
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
