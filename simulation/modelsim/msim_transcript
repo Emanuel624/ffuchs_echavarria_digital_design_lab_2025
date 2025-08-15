@@ -12,30 +12,54 @@
 # 
 # vcom -93 -work work {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/full_sub_1bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:55:41 on Aug 11,2025
+# Start time: 21:38:34 on Aug 13,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/full_sub_1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity full_sub_1bit
 # -- Compiling architecture rtl of full_sub_1bit
-# End time: 21:55:41 on Aug 11,2025, Elapsed time: 0:00:00
+# End time: 21:38:35 on Aug 13,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/sub_4bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:55:42 on Aug 11,2025
+# Start time: 21:38:35 on Aug 13,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/sub_4bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity sub_4bit
 # -- Compiling architecture structural of sub_4bit
-# End time: 21:55:42 on Aug 11,2025, Elapsed time: 0:00:00
+# End time: 21:38:35 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/hex7seg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:38:35 on Aug 13,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/hex7seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity hex7seg
+# -- Compiling architecture rtl of hex7seg
+# End time: 21:38:35 on Aug 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/top_restador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:38:35 on Aug 13,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/top_restador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_restador
+# -- Compiling architecture struct of top_restador
+# -- Loading entity sub_4bit
+# -- Loading entity hex7seg
+# End time: 21:38:35 on Aug 13,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/tb_sub_4bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:55:42 on Aug 11,2025
+# Start time: 21:38:35 on Aug 13,2025
 # vcom -reportprogress 300 -93 -work work C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/tb_sub_4bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -43,12 +67,12 @@
 # -- Compiling entity tb_sub_4bit
 # -- Compiling architecture sim of tb_sub_4bit
 # -- Loading entity sub_4bit
-# End time: 21:55:42 on Aug 11,2025, Elapsed time: 0:00:00
+# End time: 21:38:35 on Aug 13,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_sub_4bit
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" tb_sub_4bit 
-# Start time: 21:55:42 on Aug 11,2025
+# Start time: 21:38:35 on Aug 13,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -62,8 +86,5 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-rum 40
-# invalid command name "rum"
-run 40
-# End time: 22:15:11 on Aug 11,2025, Elapsed time: 0:19:29
+# End time: 21:41:44 on Aug 13,2025, Elapsed time: 0:03:09
 # Errors: 0, Warnings: 0
