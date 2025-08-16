@@ -1,0 +1,119 @@
+|top_counter_6bit
+clk => clk.IN3
+rst_sw => rst_sw.IN3
+step_btn => step_btn.IN1
+load_btn => load_btn.IN1
+sw_val[0] => sw_val[0].IN1
+sw_val[1] => sw_val[1].IN1
+sw_val[2] => sw_val[2].IN1
+sw_val[3] => sw_val[3].IN1
+sw_val[4] => sw_val[4].IN1
+sw_val[5] => sw_val[5].IN1
+seg0[0] << hex7seg:u_hex0.seg
+seg0[1] << hex7seg:u_hex0.seg
+seg0[2] << hex7seg:u_hex0.seg
+seg0[3] << hex7seg:u_hex0.seg
+seg0[4] << hex7seg:u_hex0.seg
+seg0[5] << hex7seg:u_hex0.seg
+seg0[6] << hex7seg:u_hex0.seg
+seg1[0] << hex7seg:u_hex1.seg
+seg1[1] << hex7seg:u_hex1.seg
+seg1[2] << hex7seg:u_hex1.seg
+seg1[3] << hex7seg:u_hex1.seg
+seg1[4] << hex7seg:u_hex1.seg
+seg1[5] << hex7seg:u_hex1.seg
+seg1[6] << hex7seg:u_hex1.seg
+
+
+|top_counter_6bit|edge_pulse:u_step
+clk => s1_d.CLK
+clk => s1.CLK
+clk => s0.CLK
+rst => s1_d.ACLR
+rst => s1.ACLR
+rst => s0.ACLR
+din_async => s0.DATAIN
+pulse <= pulse.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_counter_6bit|edge_pulse:u_load
+clk => s1_d.CLK
+clk => s1.CLK
+clk => s0.CLK
+rst => s1_d.ACLR
+rst => s1.ACLR
+rst => s0.ACLR
+din_async => s0.DATAIN
+pulse <= pulse.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_counter_6bit|counter_n:u_cnt
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+rst => q[0]~reg0.ALOAD
+rst => q[1]~reg0.ALOAD
+rst => q[2]~reg0.ALOAD
+rst => q[3]~reg0.ALOAD
+rst => q[4]~reg0.ALOAD
+rst => q[5]~reg0.ALOAD
+en_pulse => q_next[0].IN1
+en_pulse => c[1].IN1
+load => q.OUTPUTSELECT
+load => q.OUTPUTSELECT
+load => q.OUTPUTSELECT
+load => q.OUTPUTSELECT
+load => q.OUTPUTSELECT
+load => q.OUTPUTSELECT
+load_val[0] => q.DATAB
+load_val[0] => q[0]~reg0.ADATA
+load_val[1] => q.DATAB
+load_val[1] => q[1]~reg0.ADATA
+load_val[2] => q.DATAB
+load_val[2] => q[2]~reg0.ADATA
+load_val[3] => q.DATAB
+load_val[3] => q[3]~reg0.ADATA
+load_val[4] => q.DATAB
+load_val[4] => q[4]~reg0.ADATA
+load_val[5] => q.DATAB
+load_val[5] => q[5]~reg0.ADATA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_counter_6bit|hex7seg:u_hex0
+nibble[0] => Decoder0.IN3
+nibble[1] => Decoder0.IN2
+nibble[2] => Decoder0.IN1
+nibble[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_counter_6bit|hex7seg:u_hex1
+nibble[0] => Decoder0.IN3
+nibble[1] => Decoder0.IN2
+nibble[2] => Decoder0.IN1
+nibble[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
