@@ -1,6 +1,6 @@
 module edge_pulse (
   input  logic clk,
-  input  logic rst,     // mismo reset asíncrono del sistema (opcional)
+  input  logic rst,     // mismo reset asíncrono del sistema
   input  logic din_async,
   output logic pulse
 );
