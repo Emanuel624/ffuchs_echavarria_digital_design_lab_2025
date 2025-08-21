@@ -5,7 +5,7 @@ entity top_restador is
   port(
     SW   : in  std_logic_vector(9 downto 0);    -- switches de la placa
     LEDR : out std_logic_vector(9 downto 0);    -- leds rojos
-    HEX0 : out std_logic_vector(6 downto 0)     -- display de 7 segmentos (activo en bajo)
+    HEX0 : out std_logic_vector(6 downto 0)     -- display de 7 segmentos (bajo)
   );
 end entity;
 
@@ -24,12 +24,12 @@ begin
   U_SUB: entity work.sub_4bit
     port map(A=>A, B=>B, Bin=>Bin, D=>D, Bout=>Bout);
 
-  -- Mostrar resultado en HEX0
+  -- Mostrar resultado en HEXA
   U_HEX: entity work.hex7seg
     port map(x=>D, seg=>HEX0);
 
   -- Indicaciones en LEDs
-  LEDR(3 downto 0) <= D;     -- opcional: ver nibble en leds
+  LEDR(3 downto 0) <= D;     
   LEDR(9)          <= Bout;  -- underflow (préstamo final)
   LEDR(8 downto 4) <= (others => '0'); -- resto apagados
 end architecture;

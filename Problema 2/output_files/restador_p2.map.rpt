@@ -1,5 +1,5 @@
 Analysis & Synthesis report for restador_p2
-Fri Aug 15 21:15:00 2025
+Thu Aug 21 10:26:05 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Aug 15 21:15:00 2025       ;
+; Analysis & Synthesis Status     ; Successful - Thu Aug 21 10:26:05 2025       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; restador_p2                                 ;
 ; Top-level Entity Name           ; top_restador                                ;
@@ -166,16 +166,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                     ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                              ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
-; full_sub_1bit.vhd                ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/full_sub_1bit.vhd ;         ;
-; sub_4bit.vhd                     ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd      ;         ;
-; hex7seg.vhd                      ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/hex7seg.vhd       ;         ;
-; top_restador.vhd                 ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd  ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                              ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                       ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; full_sub_1bit.vhd                ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/full_sub_1bit.vhd ;         ;
+; sub_4bit.vhd                     ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd      ;         ;
+; hex7seg.vhd                      ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/hex7seg.vhd       ;         ;
+; top_restador.vhd                 ; yes             ; User VHDL File  ; C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd  ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------------+
@@ -270,48 +270,48 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Aug 15 21:14:52 2025
+    Info: Processing started: Thu Aug 21 10:25:53 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off restador_p2 -c restador_p2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file full_sub_1bit.vhd
-    Info (12022): Found design unit 1: full_sub_1bit-rtl File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/full_sub_1bit.vhd Line: 11
-    Info (12023): Found entity 1: full_sub_1bit File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/full_sub_1bit.vhd Line: 4
+    Info (12022): Found design unit 1: full_sub_1bit-rtl File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/full_sub_1bit.vhd Line: 11
+    Info (12023): Found entity 1: full_sub_1bit File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/full_sub_1bit.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file sub_4bit.vhd
-    Info (12022): Found design unit 1: sub_4bit-structural File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd Line: 13
-    Info (12023): Found entity 1: sub_4bit File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd Line: 4
+    Info (12022): Found design unit 1: sub_4bit-structural File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd Line: 13
+    Info (12023): Found entity 1: sub_4bit File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file tb_sub_4bit.vhd
-    Info (12022): Found design unit 1: tb_sub_4bit-sim File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/tb_sub_4bit.vhd Line: 5
-    Info (12023): Found entity 1: tb_sub_4bit File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/tb_sub_4bit.vhd Line: 4
+    Info (12022): Found design unit 1: tb_sub_4bit-sim File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/tb_sub_4bit.vhd Line: 5
+    Info (12023): Found entity 1: tb_sub_4bit File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/tb_sub_4bit.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file hex7seg.vhd
-    Info (12022): Found design unit 1: hex7seg-rtl File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/hex7seg.vhd Line: 11
-    Info (12023): Found entity 1: hex7seg File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/hex7seg.vhd Line: 4
+    Info (12022): Found design unit 1: hex7seg-rtl File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/hex7seg.vhd Line: 11
+    Info (12023): Found entity 1: hex7seg File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/hex7seg.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file top_restador.vhd
-    Info (12022): Found design unit 1: top_restador-struct File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 12
-    Info (12023): Found entity 1: top_restador File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 4
+    Info (12022): Found design unit 1: top_restador-struct File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 12
+    Info (12023): Found entity 1: top_restador File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 4
 Info (12127): Elaborating entity "top_restador" for the top level hierarchy
-Info (12128): Elaborating entity "sub_4bit" for hierarchy "sub_4bit:U_SUB" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 24
-Info (12128): Elaborating entity "full_sub_1bit" for hierarchy "sub_4bit:U_SUB|full_sub_1bit:u0" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd Line: 20
-Info (12128): Elaborating entity "hex7seg" for hierarchy "hex7seg:U_HEX" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 28
+Info (12128): Elaborating entity "sub_4bit" for hierarchy "sub_4bit:U_SUB" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 24
+Info (12128): Elaborating entity "full_sub_1bit" for hierarchy "sub_4bit:U_SUB|full_sub_1bit:u0" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd Line: 20
+Info (12128): Elaborating entity "hex7seg" for hierarchy "hex7seg:U_HEX" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 28
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 7
-    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 7
-    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 7
-    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 7
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 7
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 7
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 7
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 7
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 7
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 7
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd Line: 6
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd Line: 6
 Info (21057): Implemented 40 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 17 output pins
     Info (21061): Implemented 13 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4857 megabytes
-    Info: Processing ended: Fri Aug 15 21:15:00 2025
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Peak virtual memory: 4861 megabytes
+    Info: Processing ended: Thu Aug 21 10:26:05 2025
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:27
 
 

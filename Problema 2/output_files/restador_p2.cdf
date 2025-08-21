@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSXFC6D6F31) Path("C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/output_files/") File("restador_p2.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSXFC6D6F31) Path("C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/output_files/") File("restador_p2.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

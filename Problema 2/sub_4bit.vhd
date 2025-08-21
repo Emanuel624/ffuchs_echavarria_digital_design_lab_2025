@@ -6,11 +6,11 @@ entity sub_4bit is
     A, B  : in  std_logic_vector(3 downto 0);
     Bin   : in  std_logic;                     -- De forma inicial 0
     D     : out std_logic_vector(3 downto 0);  -- diferencia
-    Bout  : out std_logic                      -- prestamos en casos que se salga
+    Bout  : out std_logic                      -- prestamos en casos que se dé
   );
 end entity;
 
-architecture structural of sub_4bit is			-- Structural para unir componenetes mas pequeños
+architecture structural of sub_4bit is			-- Unir componenetes mas pequeños
   component full_sub_1bit
     port(A,B,Bin: in std_logic; D,Bout: out std_logic);	-- Entradas y salidas
   end component;

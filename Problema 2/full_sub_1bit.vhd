@@ -10,6 +10,6 @@ end entity;
 
 architecture rtl of full_sub_1bit is
 begin
-  D    <= A xor B xor Bin;
-  Bout <= ( (not A) and (B or Bin) ) or (B and Bin);
+  D    <= A xor B xor Bin;						-- Logica resta
+  Bout <= ( (not A) and (B or Bin) ) or (B and Bin);	--Logica prestamos
 end architecture;

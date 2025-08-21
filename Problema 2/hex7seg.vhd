@@ -3,8 +3,8 @@ use ieee.std_logic_1164.all;
 
 entity hex7seg is
   port(
-    x    : in  std_logic_vector(3 downto 0); -- nibble a mostrar
-    seg  : out std_logic_vector(6 downto 0)  -- {g,f,e,d,c,b,a}, activo en bajo
+    x    : in  std_logic_vector(3 downto 0); -- mostrar
+    seg  : out std_logic_vector(6 downto 0)
   );
 end entity;
 

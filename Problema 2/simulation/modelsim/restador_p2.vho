@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
 
--- DATE "08/15/2025 21:15:50"
+-- DATE "08/21/2025 10:27:06"
 
 -- 
 -- Device: Altera 5CSXFC6D6F31C6 Package FBGA896
@@ -109,21 +109,21 @@ SIGNAL \U_HEX|Mux3~0_combout\ : std_logic;
 SIGNAL \U_HEX|Mux2~0_combout\ : std_logic;
 SIGNAL \U_HEX|Mux1~0_combout\ : std_logic;
 SIGNAL \U_HEX|Mux0~0_combout\ : std_logic;
-SIGNAL \U_SUB|u0|ALT_INV_D~combout\ : std_logic;
-SIGNAL \U_SUB|u1|ALT_INV_D~combout\ : std_logic;
-SIGNAL \U_SUB|u1|ALT_INV_Bout~0_combout\ : std_logic;
-SIGNAL \U_SUB|u2|ALT_INV_D~combout\ : std_logic;
-SIGNAL \U_SUB|u3|ALT_INV_D~combout\ : std_logic;
 SIGNAL \U_HEX|ALT_INV_Mux0~0_combout\ : std_logic;
+SIGNAL \ALT_INV_SW[0]~input_o\ : std_logic;
 SIGNAL \ALT_INV_SW[4]~input_o\ : std_logic;
 SIGNAL \ALT_INV_SW[8]~input_o\ : std_logic;
-SIGNAL \ALT_INV_SW[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_SW[5]~input_o\ : std_logic;
+SIGNAL \ALT_INV_SW[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_SW[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_SW[0]~input_o\ : std_logic;
-SIGNAL \ALT_INV_SW[7]~input_o\ : std_logic;
-SIGNAL \ALT_INV_SW[3]~input_o\ : std_logic;
 SIGNAL \ALT_INV_SW[6]~input_o\ : std_logic;
+SIGNAL \ALT_INV_SW[3]~input_o\ : std_logic;
+SIGNAL \ALT_INV_SW[7]~input_o\ : std_logic;
+SIGNAL \U_SUB|u3|ALT_INV_D~combout\ : std_logic;
+SIGNAL \U_SUB|u2|ALT_INV_D~combout\ : std_logic;
+SIGNAL \U_SUB|u1|ALT_INV_Bout~0_combout\ : std_logic;
+SIGNAL \U_SUB|u1|ALT_INV_D~combout\ : std_logic;
+SIGNAL \U_SUB|u0|ALT_INV_D~combout\ : std_logic;
 
 BEGIN
 
@@ -133,21 +133,21 @@ HEX0 <= ww_HEX0;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
-\U_SUB|u0|ALT_INV_D~combout\ <= NOT \U_SUB|u0|D~combout\;
-\U_SUB|u1|ALT_INV_D~combout\ <= NOT \U_SUB|u1|D~combout\;
-\U_SUB|u1|ALT_INV_Bout~0_combout\ <= NOT \U_SUB|u1|Bout~0_combout\;
-\U_SUB|u2|ALT_INV_D~combout\ <= NOT \U_SUB|u2|D~combout\;
-\U_SUB|u3|ALT_INV_D~combout\ <= NOT \U_SUB|u3|D~combout\;
 \U_HEX|ALT_INV_Mux0~0_combout\ <= NOT \U_HEX|Mux0~0_combout\;
+\ALT_INV_SW[0]~input_o\ <= NOT \SW[0]~input_o\;
 \ALT_INV_SW[4]~input_o\ <= NOT \SW[4]~input_o\;
 \ALT_INV_SW[8]~input_o\ <= NOT \SW[8]~input_o\;
-\ALT_INV_SW[1]~input_o\ <= NOT \SW[1]~input_o\;
 \ALT_INV_SW[5]~input_o\ <= NOT \SW[5]~input_o\;
+\ALT_INV_SW[1]~input_o\ <= NOT \SW[1]~input_o\;
 \ALT_INV_SW[2]~input_o\ <= NOT \SW[2]~input_o\;
-\ALT_INV_SW[0]~input_o\ <= NOT \SW[0]~input_o\;
-\ALT_INV_SW[7]~input_o\ <= NOT \SW[7]~input_o\;
-\ALT_INV_SW[3]~input_o\ <= NOT \SW[3]~input_o\;
 \ALT_INV_SW[6]~input_o\ <= NOT \SW[6]~input_o\;
+\ALT_INV_SW[3]~input_o\ <= NOT \SW[3]~input_o\;
+\ALT_INV_SW[7]~input_o\ <= NOT \SW[7]~input_o\;
+\U_SUB|u3|ALT_INV_D~combout\ <= NOT \U_SUB|u3|D~combout\;
+\U_SUB|u2|ALT_INV_D~combout\ <= NOT \U_SUB|u2|D~combout\;
+\U_SUB|u1|ALT_INV_Bout~0_combout\ <= NOT \U_SUB|u1|Bout~0_combout\;
+\U_SUB|u1|ALT_INV_D~combout\ <= NOT \U_SUB|u1|D~combout\;
+\U_SUB|u0|ALT_INV_D~combout\ <= NOT \U_SUB|u0|D~combout\;
 
 -- Location: IOOBUF_X89_Y11_N45
 \LEDR[0]~output\ : cyclonev_io_obuf

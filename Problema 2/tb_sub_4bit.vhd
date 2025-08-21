@@ -15,7 +15,7 @@ begin
   begin
     -- 1) 9 - 3 = 6
     A<="1001"; B<="0011"; wait for 10 ns;
-    -- 2) 5 - 6 = (underflow) => D=1111 (−1 mod 16), Bout=1
+    -- 2) 5 - 6 = (underflow) => D=1111 , Bout=1
     A<="0101"; B<="0110"; wait for 10 ns;
     -- 3) 15 - 15 = 0
     A<="1111"; B<="1111"; wait for 10 ns;

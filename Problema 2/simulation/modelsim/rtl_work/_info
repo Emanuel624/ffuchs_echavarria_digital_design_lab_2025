@@ -8,26 +8,26 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/simulation/modelsim
+Z0 dC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/simulation/modelsim
 Efull_sub_1bit
-Z1 w1754958092
+Z1 w1755793307
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 0
 R0
-Z4 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/full_sub_1bit.vhd
-Z5 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/full_sub_1bit.vhd
+Z4 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/full_sub_1bit.vhd
+Z5 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/full_sub_1bit.vhd
 l0
 L4 1
 V@LF3Ch:RU9CkhU`bY2?6<2
 !s100 2g=UQBCCH<bUiNDD=j^DT3
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1755313743
+Z7 !s110 1755793521
 !i10b 1
-Z8 !s108 1755313743.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/full_sub_1bit.vhd|
-Z10 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/full_sub_1bit.vhd|
+Z8 !s108 1755793521.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/full_sub_1bit.vhd|
+Z10 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/full_sub_1bit.vhd|
 !i113 1
 Z11 o-93 -work work
 Z12 tExplicit 1 CvgOpt 0
@@ -51,31 +51,31 @@ R10
 R11
 R12
 Ehex7seg
-Z13 w1755141737
+Z13 w1755793458
 R2
 R3
 !i122 2
 R0
-Z14 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/hex7seg.vhd
-Z15 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/hex7seg.vhd
+Z14 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/hex7seg.vhd
+Z15 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/hex7seg.vhd
 l0
 L4 1
 V8g53]49zN49o_Wo7=UgAo0
 !s100 i<c@HFi0M91I`Ag2RoS`@2
 R6
 31
-Z16 !s110 1755313744
+R7
 !i10b 1
-Z17 !s108 1755313744.000000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/hex7seg.vhd|
-Z19 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/hex7seg.vhd|
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/hex7seg.vhd|
+Z17 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/hex7seg.vhd|
 !i113 1
 R11
 R12
 Artl
 R2
 R3
-Z20 DEx4 work 7 hex7seg 0 22 8g53]49zN49o_Wo7=UgAo0
+Z18 DEx4 work 7 hex7seg 0 22 8g53]49zN49o_Wo7=UgAo0
 !i122 2
 l12
 L11 22
@@ -83,40 +83,40 @@ V]U?iWH5@0boAOf:Tj8EDG3
 !s100 fFcij0J:BKR[LSfTl6HZX0
 R6
 31
-R16
+R7
 !i10b 1
+R8
+R16
 R17
-R18
-R19
 !i113 1
 R11
 R12
 Esub_4bit
-Z21 w1755142431
+Z19 w1755793279
 R2
 R3
 !i122 1
 R0
-Z22 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd
-Z23 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd
+Z20 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd
+Z21 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd
 l0
 L4 1
 V]gS`V<F@JK]IAKUbJLGWc0
 !s100 GFlhTOU4K=:nS<nhNT<MS2
 R6
 31
-R16
+R7
 !i10b 1
-R17
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd|
-Z25 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/sub_4bit.vhd|
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd|
+Z23 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/sub_4bit.vhd|
 !i113 1
 R11
 R12
 Astructural
 R2
 R3
-Z26 DEx4 work 8 sub_4bit 0 22 ]gS`V<F@JK]IAKUbJLGWc0
+Z24 DEx4 work 8 sub_4bit 0 22 ]gS`V<F@JK]IAKUbJLGWc0
 !i122 1
 l19
 L13 12
@@ -124,38 +124,38 @@ VJ1<`RId3hc31@Z9@Y_LU20
 !s100 oQSN1hJo]C;QI=YR^mO[11
 R6
 31
-R16
+R7
 !i10b 1
-R17
-R24
-R25
+R8
+R22
+R23
 !i113 1
 R11
 R12
 Etb_sub_4bit
-Z27 w1754961033
+Z25 w1755793497
 R2
 R3
 !i122 4
 R0
-Z28 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/tb_sub_4bit.vhd
-Z29 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/tb_sub_4bit.vhd
+Z26 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/tb_sub_4bit.vhd
+Z27 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/tb_sub_4bit.vhd
 l0
 L4 1
 VXBiFU17^IXIaNam`Fi]kO2
 !s100 o[h@j@AD^UM2Jjb`ZjCFZ0
 R6
 31
-R16
+R7
 !i10b 1
-R17
-Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/tb_sub_4bit.vhd|
-!s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/tb_sub_4bit.vhd|
+R8
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/tb_sub_4bit.vhd|
+!s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/tb_sub_4bit.vhd|
 !i113 1
 R11
 R12
 Asim
-R26
+R24
 R2
 R3
 DEx4 work 11 tb_sub_4bit 0 22 XBiFU17^IXIaNam`Fi]kO2
@@ -166,39 +166,39 @@ V32^6]hOL`9b:K4Pf3Z6e@3
 !s100 laL8O_Kc86PQ:ak862mlU2
 R6
 31
-R16
+R7
 !i10b 1
-R17
-R30
-Z31 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/tb_sub_4bit.vhd|
+R8
+R28
+Z29 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/tb_sub_4bit.vhd|
 !i113 1
 R11
 R12
 Etop_restador
-Z32 w1755211844
+Z30 w1755793492
 R2
 R3
 !i122 3
 R0
-Z33 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd
-Z34 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd
+Z31 8C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd
+Z32 FC:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd
 l0
 L4 1
 Vga`Vo1laLP;6;_^oXT8z73
 !s100 cSClGAGkI?TkN^6?3XcV11
 R6
 31
-R16
+R7
 !i10b 1
-R17
-Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd|
-Z36 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/Laboratorio 1/Problema 2/top_restador.vhd|
+R8
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd|
+Z34 !s107 C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 2/top_restador.vhd|
 !i113 1
 R11
 R12
 Astruct
-R20
-R26
+R18
+R24
 R2
 R3
 DEx4 work 12 top_restador 0 22 ga`Vo1laLP;6;_^oXT8z73
@@ -209,11 +209,11 @@ VcmDH6YWS4H4VI?z:`C<K^2
 !s100 ?^]L0>eSU_XYJf6A<3jhY1
 R6
 31
-R16
+R7
 !i10b 1
-R17
-R35
-R36
+R8
+R33
+R34
 !i113 1
 R11
 R12
