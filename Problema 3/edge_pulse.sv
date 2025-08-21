@@ -4,7 +4,7 @@ module edge_pulse (
   input  logic din_async,
   output logic pulse
 );
-  logic s0, s1;  // dos flip-flops de sincronización
+  logic s0, s1;  // dos flip-flops de sinc
   always_ff @(posedge clk or posedge rst) begin
     if (rst) begin
       s0 <= 1'b0; s1 <= 1'b0;
@@ -20,5 +20,5 @@ module edge_pulse (
     else     s1_d <= s1;
   end
 
-  assign pulse = (s1 & ~s1_d); // rising-edge, 1 ciclo
+  assign pulse = (s1 & ~s1_d);
 endmodule

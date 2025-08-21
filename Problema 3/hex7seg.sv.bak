@@ -1,5 +1,5 @@
 module hex7seg #(
-  parameter bit ACTIVE_LOW = 1  
+  parameter bit ACTIVE_LOW = 1  // 1: segmentos activos en '0'
 )(
   input  logic [3:0] nibble,
   output logic [6:0] seg      // {a,b,c,d,e,f,g}
