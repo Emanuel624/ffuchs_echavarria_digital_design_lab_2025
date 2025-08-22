@@ -1,0 +1,10 @@
+module btg(input logic [3:0] binary, output logic [3:0] gray);
+	assign gray[3] = binary[3];
+	genvar i;
+	generate
+    for (i = 0; i <= 2; i = i + 1) begin : gen_gray_bits
+        assign gray[2 - i] = binary[3 - i] ^ binary[2 - i];
+    end
+endgenerate
+
+endmodule

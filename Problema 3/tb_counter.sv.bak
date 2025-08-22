@@ -1,0 +1,86 @@
+module tb_counter;
+
+  // Reloj común
+  logic clk = 0;
+  always #5 clk = ~clk; // 100 MHz/2 -> periodo 10ns
+
+  initial begin
+    $display("==== TB counter_n (2,4,6 bits) ====");
+    run_case#(.N(2))();
+    run_case#(.N(4))();
+    run_case#(.N(6))();
+    $display("==== ALL PASSED ====");
+    $finish;
+  end
+
+  // -------------------------------------
+  // Tarea parametrizable de prueba
+  // -------------------------------------
+  task automatic run_case #(parameter int N=4)();
+    logic rst, load, en_pulse;
+    logic [N-1:0] load_val, q;
+    logic         ovf;
+
+    counter_n #(.N(N)) dut (
+      .clk       (clk),
+      .rst       (rst),
+      .en_pulse  (en_pulse),
+      .load      (load),
+      .load_val  (load_val),
+      .q         (q),
+      .carry_out (ovf)
+    );
+
+    // Modelo de referencia
+    int unsigned ref;
+    int unsigned MOD = (1<<N);
+
+    // Helpers
+    automatic task pulse(input int cycles=1); begin
+      repeat (cycles) begin
+        en_pulse = 1; @(posedge clk);
+        en_pulse = 0; @(posedge clk);
+      end
+    end endtask
+
+    // Secuencia
+    begin
+      $display("-- N=%0d --", N);
+      // Inicial
+      rst = 0; load = 0; en_pulse = 0; load_val = '0;
+      @(posedge clk);
+
+      // Reset asíncrono con valor inicial
+      load_val = '0; #3 rst = 1; #2; // asíncrono (no alineado al clk)
+      #7 rst = 0;                      // soltar
+      ref = load_val;
+      @(posedge clk);
+      assert(q == ref) else $fatal("Reset fail N=%0d", N);
+
+      // Carga sincrónica de un valor random
+      load_val = $urandom_range(0, MOD-1);
+      load = 1; @(posedge clk); load = 0;
+      ref = load_val;
+      @(posedge clk);
+      assert(q == ref) else $fatal("Load fail N=%0d", N);
+
+      // 20 pasos de incremento con verificación paso a paso
+      repeat (20) begin
+        pulse(1);
+        ref = (ref + 1) % MOD;
+        @(posedge clk);
+        assert(q == ref) else $fatal("Step mismatch N=%0d: got %0d expected %0d", N, q, ref);
+      end
+
+      // Probar reset asíncrono en medio de la cuenta
+      load_val = '0;
+      #3 rst = 1; #4 rst = 0;
+      ref = load_val;
+      @(posedge clk);
+      assert(q == ref) else $fatal("Async reset mid-run fail N=%0d", N);
+
+      $display("PASS N=%0d", N);
+    end
+  endtask
+
+endmodule

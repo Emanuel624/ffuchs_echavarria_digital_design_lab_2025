@@ -1,0 +1,93 @@
+# Reading pref.tcl
+# do contador_p2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/TEC\ II\ 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema\ 3 {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/counter_n.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:12:57 on Aug 21,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3" C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/counter_n.sv 
+# -- Compiling module counter_n
+# 
+# Top level modules:
+# 	counter_n
+# End time: 11:12:57 on Aug 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/TEC\ II\ 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema\ 3 {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/edge_pulse.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:12:58 on Aug 21,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3" C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/edge_pulse.sv 
+# -- Compiling module edge_pulse
+# 
+# Top level modules:
+# 	edge_pulse
+# End time: 11:12:58 on Aug 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/TEC\ II\ 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema\ 3 {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/hex7seg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:12:58 on Aug 21,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3" C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/hex7seg.sv 
+# -- Compiling module hex7seg
+# 
+# Top level modules:
+# 	hex7seg
+# End time: 11:12:58 on Aug 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/TEC\ II\ 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema\ 3 {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/top_counter_6bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:12:58 on Aug 21,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3" C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/top_counter_6bit.sv 
+# -- Compiling module top_counter_6bit
+# 
+# Top level modules:
+# 	top_counter_6bit
+# End time: 11:12:58 on Aug 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/TEC\ II\ 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema\ 3 {C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/tb_counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:12:58 on Aug 21,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3" C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/tb_counter.sv 
+# -- Compiling module tb_counter
+# -- Compiling module tb_case
+# 
+# Top level modules:
+# 	tb_counter
+# End time: 11:12:58 on Aug 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_counter
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_counter 
+# Start time: 11:12:58 on Aug 21,2025
+# Loading sv_std.std
+# Loading work.tb_counter
+# Loading work.tb_case
+# Loading work.counter_n
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ==== TB counter_n (2,4,6 bits) ====
+# -- CASE N=2 --
+# -- CASE N=4 --
+# -- CASE N=6 --
+# PASS N=2
+# PASS N=4
+# PASS N=6
+# ==== ALL PASSED ====
+# ** Note: $finish    : C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/tb_counter.sv(23)
+#    Time: 655 ns  Iteration: 0  Instance: /tb_counter
+# 1
+# Break in Module tb_counter at C:/Users/Usuario/Desktop/TEC II 2025/Taller_DD/laboratorio1/ffuchs_echavarria_digital_design_lab_2025/Problema 3/tb_counter.sv line 23
+# End time: 12:10:47 on Aug 21,2025, Elapsed time: 0:57:49
+# Errors: 0, Warnings: 0

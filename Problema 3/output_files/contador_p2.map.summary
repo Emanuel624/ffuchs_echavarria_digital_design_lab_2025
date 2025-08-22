@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Thu Aug 21 12:11:10 2025
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : contador_p2
+Top-level Entity Name : top_counter_6bit
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 12
+Total pins : 24
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0
