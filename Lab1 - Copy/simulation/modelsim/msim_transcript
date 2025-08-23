@@ -1,0 +1,71 @@
+# Reading pref.tcl
+# do Lab1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ffuch/Documents/Lab1 {C:/Users/ffuch/Documents/Lab1/binarytogray.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:45 on Aug 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ffuch/Documents/Lab1" C:/Users/ffuch/Documents/Lab1/binarytogray.sv 
+# -- Compiling module binarytogray
+# 
+# Top level modules:
+# 	binarytogray
+# End time: 15:56:46 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ffuch/Documents/Lab1 {C:/Users/ffuch/Documents/Lab1/tb_btg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:46 on Aug 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ffuch/Documents/Lab1" C:/Users/ffuch/Documents/Lab1/tb_btg.sv 
+# -- Compiling module tb_btg
+# 
+# Top level modules:
+# 	tb_btg
+# End time: 15:56:46 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_btg
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_btg 
+# Start time: 15:56:46 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb_btg
+# Loading work.binarytogray
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Binario | Gray
+# --------+------
+# 0000   | 0000
+# 0001   | 0001
+# 0010   | 0011
+# 0011   | 0010
+# 0100   | 0110
+# 0101   | 0111
+# 0110   | 0101
+# 0111   | 0100
+# 1000   | 1100
+# 1001   | 1101
+# 1010   | 1111
+# 1011   | 1110
+# 1100   | 1010
+# 1101   | 1011
+# 1110   | 1001
+# 1111   | 1000
+# ** Note: $finish    : C:/Users/ffuch/Documents/Lab1/tb_btg.sv(21)
+#    Time: 16 ps  Iteration: 0  Instance: /tb_btg
+# 1
+# Break in Module tb_btg at C:/Users/ffuch/Documents/Lab1/tb_btg.sv line 21
+# End time: 16:16:44 on Aug 22,2025, Elapsed time: 0:19:58
+# Errors: 0, Warnings: 0
